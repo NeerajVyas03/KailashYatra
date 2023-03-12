@@ -1,0 +1,21 @@
+.head {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-color: #655DBB;
+    color: white;
+    padding: 2rem;
+}
+
+.row{
+    padding: 5%;
+}
+.btn{
+    
+    background-color: #655DBB;
+}
+
+@media (max-width:767px) {
+    .row{
+        padding: 10%;
+    }
+}

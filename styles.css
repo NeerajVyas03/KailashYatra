@@ -1,0 +1,162 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section {
+    background-color: #655DBB;
+}
+
+.title {
+    padding: 3% 13% 3% 13%;
+    text-align: center;
+}
+
+.nav {
+    padding: 1.5% 13% 0%;
+
+}
+
+.nav-cont {
+    padding: 0;
+}
+
+.navbar-brand {
+    width: 20%;
+    margin-left: 0;
+}
+
+.logo {
+    width: 45px;
+}
+
+#link {
+    font-size: larger;
+    color: white;
+    font-weight: 400;
+    padding: 0 20px;
+}
+
+#link:hover {
+    color: black;
+}
+
+.nav-hr {
+    margin: 0 13% 0 13%;
+}
+
+.t-head {
+    font-size: 400%;
+    font-family: 'Tiro Devanagari Sanskrit', serif;
+    color: white;
+
+}
+
+.slider-img {
+    background-color: #FFFBE9;
+    border-radius: 1.5%;
+
+}
+
+.t-img {
+    width: 100%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border-radius: 1.5%;
+}
+
+.slider-text {
+    padding: 5px;
+}
+
+.pin {
+    width: 3%;
+}
+
+/* CONTENT */
+.content-head{
+    color: white;
+}
+.content1 {
+    padding: 5% 17%;
+    background-color: #655DBB;
+}
+
+.card{
+    margin: 0 0 50px;
+    background-color: #FFFBE9;
+}
+.card-img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.card-text{
+    line-height: 2;
+}
+
+.card-title{
+    text-decoration: underline 1px  ;
+}
+
+.btn{
+    background-color: #655DBB;
+    color: white;
+}
+
+.footer{
+    text-align: center;
+    background-color: white;
+    padding: 3em;
+    font-weight: bold;
+}
+
+.footer-icons{
+    margin: 0 1% 0 1%;
+}
+
+
+/* MEDIA QUERIES */
+
+
+@media (max-width : 767px) {
+    .t-head {
+        font-size: 250%;
+        padding-top: 5%;
+    }
+
+    .slider-text {
+        font-size: 1rem;
+    }
+
+    .logo {
+        width: 35px;
+    }
+
+    #link {
+        padding: 20px 0 5px 0;
+    }
+
+    .title {
+        padding: 3% 2%;
+    }
+
+    .nav {
+        padding: 3% 2%;
+    }
+
+    .nav-hr {
+        margin: 0 2% 0 2%;
+    }
+
+    .content1{
+        padding: 15% 15%;
+       
+    }
+
+    .content-head{
+        font-size: 1.5rem;
+        
+    }
+
+}
